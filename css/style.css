@@ -1,0 +1,60 @@
+* {
+  font-family: "MedievalSharp", cursive;
+}
+body{
+  background-image: url('https://i.stack.imgur.com/jGlzr.png');
+}
+
+#div1 {
+  background-color: rgba(246, 188, 154, 0.616);
+  width: 500px;
+  height: 700px;
+  margin: auto;
+  text-align: center;
+  margin-top: 75px;
+  font-size: 25px;
+}
+#circle {
+  background-color: black;
+  width: 340px;
+  height: 340px;
+  color: black;
+  border-radius: 100%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  font-size: 20px;
+  margin-top: 20px;
+  z-index: -1;
+  animation: shake;
+}
+h4 {
+  padding-top: 45px;
+}
+button {
+  font-size: 20px;
+}
+#para {
+  border-radius: 100%;
+  background-color: white;
+  height: 120px;
+  width: 200px;
+  text-align: center;
+  padding-top: 70px;
+  font-size: 27px;
+}
+@keyframes spin1 {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes spin2 {
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes idle {
+  100% {
+  }
+}
